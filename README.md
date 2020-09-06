@@ -24,6 +24,8 @@ pip3 --version
 
 ```bash
 python get-pip.py
+// OR
+python3 get-pip.py
 ```
 
 ### 3. Install script dependencies
