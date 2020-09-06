@@ -2,41 +2,42 @@
 
 To run, perform the following steps:
 
-1.  Ensure you have Python 3 installed
+### 1. Ensure you have Python 3 installed
 
-   ```bash
-   python3 --version
-   // OR
-   python --version
-   ```
+```bash
+python3 --version
+// OR
+python --version
+```
 
-   _As long as you see a version above 3 pop up (i.e. "3.x.x") you are good to go_
-2. Ensure you have pip installed
+_As long as you see a version above 3 pop up (i.e. "3.x.x") you are good to go_
 
-    ```bash
-    pip --version
-    // OR
-    pip3 --version
-    ```
+### 2. Ensure you have pip installed
 
-    > If both of the above commands fail (e.g. `zsh: command not found: pip`), then download [this pip installer script](https://bootstrap.pypa.io/get-pip.py) and run it:
+```bash
+pip --version
+// OR
+pip3 --version
+```
 
-    ```bash
-    python get-pip.py
-    ```
+> If both of the above commands fail (e.g. `zsh: command not found: pip`), then download [this pip installer script](https://bootstrap.pypa.io/get-pip.py) and run it:
 
-3.  Install script dependencies:
+```bash
+python get-pip.py
+```
 
-    ```bash
-    pip install -r requirements.txt
-    // OR
-    pip3 install -r requirements.txt
-    ```
+### 3. Install script dependencies
 
-4.  Run the script
+```bash
+pip install -r requirements.txt
+// OR
+pip3 install -r requirements.txt
+```
 
-    ```bash
-    python main.py
-    // OR
-    python3 main.py
-    ```
+### 4. Run the script
+
+```bash
+python main.py
+// OR
+python3 main.py
+```
